@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: var(--background-color);
   margin: 0 auto;
 }
 
@@ -41,8 +40,9 @@ a {
 }
 
 .head-section {
-  background-color: #5c3865;
-  padding: 150px 200px 60px;
+  background-color: #fff;
+  padding: 60px;
+  text-align: center;
 }
 .head-section h1 {
   color: #1b1e26;
@@ -57,12 +57,20 @@ a {
   display: flex;
   justify-content: center;
   padding: 30px;
-  background-color: #fff;
+  background-color: #d1f2eb;
 }
 .dictionary-mockup {
   display: flex;
   justify-content: center;
   background-color: #f7f202;
+}
+.react-weather-app {
+  display: flex;
+  justify-content: center;
+  background-color: #bffdc1;
+}
+.react-weather-icons {
+  background-color: #588a85;
 }
 
 /* Media */
