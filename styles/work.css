@@ -6,6 +6,7 @@
 
 body {
   margin: 0 auto;
+  background-color: var(--background-color);
 }
 
 h1,
@@ -13,14 +14,12 @@ h2,
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: var(--secondary-color);
 }
 h2 {
   font-size: 16px;
 }
 h3 {
   font-size: 16px;
-  font-weight: 600;
   text-align: center;
   padding-top: 50px;
 }
@@ -28,7 +27,8 @@ p {
   font-family: "PT Serif", serif;
   font-weight: 400s;
   font-size: 14px;
-  color: var(--secondary-color);
+  color: #85929e;
+  text-align: center;
 }
 a {
   color: var(--secondary-color);
@@ -40,12 +40,12 @@ a {
 }
 
 .head-section {
-  background-color: #fff;
+  background-color: var(--primary-color);
   padding: 60px;
   text-align: center;
 }
 .head-section h1 {
-  color: #1b1e26;
+  color: var(--secondary-color);
 }
 .head-section p {
   color: #1b1e26;
@@ -56,8 +56,8 @@ a {
 .dictionary-logo {
   display: flex;
   justify-content: center;
-  padding: 30px;
-  background-color: #d1f2eb;
+  padding: 80px;
+  background-color: #f7f202;
 }
 .dictionary-mockup {
   display: flex;
@@ -67,10 +67,13 @@ a {
 .react-weather-app {
   display: flex;
   justify-content: center;
-  background-color: #bffdc1;
+  background-color: #272b33;
 }
 .react-weather-icons {
-  background-color: #588a85;
+  background-color: #272b33;
+}
+.vanilla-weather-app {
+  background-color: #d9dee1;
 }
 
 /* Media */
